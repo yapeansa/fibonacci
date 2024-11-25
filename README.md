@@ -6,15 +6,4 @@ Lembre-se que o primeiro e o segundo termos da sequência de Fibonacci são igua
 
 ## Executando o programa em sua máquina
 
-Para executar a versão iterativa, compile o programa com gcc com o seguinte comando:
-
-> gcc main.c func.c -o main
-
-Lembrando que primeiro deve-se entrar no respectivo diretório com:
-
-> cd fibonacci_iterativo
-
-Para executar
-
-> ./main
-
+No respectivo diretório, basta executar no terminal o comando `make` e em seguida `make run`.
