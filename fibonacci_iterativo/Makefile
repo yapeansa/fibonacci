@@ -1,9 +1,10 @@
 TARGET = main
+SRC = main.c fibonacci.c
 CC = gcc
 RM = rm -rf
 
 all:
-	$(CC) main.c func.c -o $(TARGET)
+	$(CC) $(SRC) -o $(TARGET)
 run:
 	./main
 clean:
